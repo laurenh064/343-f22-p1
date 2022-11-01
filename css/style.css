@@ -50,6 +50,11 @@
     margin-top: 40px;
 }
 
+img.container-row.logo {
+    width: 40%;
+    height: 40%;
+}
+
 #socials-nav {
     background-color: rgba(255, 255, 255, 0);
 }
