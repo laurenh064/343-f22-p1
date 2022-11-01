@@ -1,3 +1,55 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* CSS HEX */
+/* --dark-goldenrod: #b68b24ff;
+--white: #fcfaf9ff;
+--blue-violet-color-wheel: #541782ff;
+--old-burgundy: #503d42ff;
+--steel-teal: #6c969dff;
+
+/* CSS HSL */
+/* --dark-goldenrod: hsla(42, 67%, 43%, 1);
+--white: hsla(20, 33%, 98%, 1);
+--blue-violet-color-wheel: hsla(274, 70%, 30%, 1);
+--old-burgundy: hsla(344, 13%, 28%, 1);
+--steel-teal: hsla(189, 20%, 52%, 1); */
+
+.nav {
+    padding: 5px;
+    background-color: #541782ff;
+}
+
+.nav-link {
+    color: #fcfaf9ff;
+    --bs-nav-link-hover-color: #b68b24ff;
+    --bs-nav-link-active-color: #b68b24ff;
+}
+
+#main-section {
+    color: #fcfaf9ff;
+    background-color: #503d42ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main-container h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+#socials-nav {
+    background-color: rgba(255, 255, 255, 0);
+}
