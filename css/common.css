@@ -22,17 +22,23 @@
 }
 
 .nav-link {
-    color: #fcfaf9ff;
-    --bs-nav-link-hover-color: #b68b24ff;
-    --bs-nav-link-active-color: #b68b24ff;
+    color: #fcfaf9ff !important;
 }
 
 #main-section {
     color: #fcfaf9ff;
-    background-color: #503d42ff;
+    margin: 0;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+}
+
+#background-img {
+    z-index: -1;
+    opacity: 0.5;
+    position: absolute;
+    height: 100%;
+
 }
 
 .main-container {
