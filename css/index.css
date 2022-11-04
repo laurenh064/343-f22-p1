@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/img4.jpg), no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main-section {
+    color: #fcfaf9ff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background-img {
+    z-index: -1;
+    opacity: 0.5;
+    position: absolute;
+    /* Full height */
+    height: 100%;
+    background-size: auto;
+}
+
+.main-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main-container h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+img.container-row.logo {
+    width: 40%;
+    height: 40%;
+}
+
+#socials-nav {
+    background-color: rgba(255, 255, 255, 0);
+}
