@@ -4,14 +4,30 @@ main {
     display: flex;
     flex-direction: row;
     align-items:flex-start;
-    justify-content:space-around;
+    justify-content:flex-start;
+    padding-top: 60px;
+    padding-left: 150px;
 }
 form{
     width:fit-content;
+    padding: 10px;
+    padding-left: 100px;
     position: relative;
 }
 #info{
-    border-color: black;
+    border: 4px solid black ;
+    background-color: lightgray;
+    padding: 30px;
     width:fit-content;
     position: relative;
+}
+.btn{
+    background-color: #541782ff;
+    border-color: #541782ff;
+}
+.form-group{
+    padding-bottom: 10px;
+}
+h1{
+    font-weight: bold;
 }
