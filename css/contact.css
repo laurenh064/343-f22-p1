@@ -4,14 +4,16 @@ main {
     display: flex;
     flex-direction: row;
     align-items:flex-start;
-    justify-content:space-around;
+    justify-content:center;
 }
 form{
     width:fit-content;
+    padding: 60px;
     position: relative;
 }
 #info{
     border-color: black;
+    padding: 60px;
     width:fit-content;
     position: relative;
 }
