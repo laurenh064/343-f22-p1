@@ -1,27 +1,62 @@
 [
     {
-        "date": "1/1/2023",
-        "topic": "Competitions",
-        "slides": "link.com"
+        "date": "Sept 01, 2022",
+        "topic": "Introduction Meeting"
     },
     {
-        "date": "1/2/2023",
-        "topic": "Security",
-        "slides": "link.com"
+        "date": "Sept 08, 2022",
+        "topic": "Intro to Cyber Security"
     },
     {
-        "date": "1/3/2023",
-        "topic": "Forensics",
-        "slides": "link.com"
+        "date": "Sept 15, 2022",
+        "topic": "Install-fest and Cyber Security"
     },
     {
-        "date": "1/4/2023",
-        "topic": "Reverse Engineering",
-        "slides": "link.com"
+        "date": "Sept 22, 2022",
+        "topic": "Intro to Cyber Competitions (CTF)"
     },
     {
-        "date": "1/5/2023",
-        "topic": "Crytography",
-        "slides": "link.com"
+        "date": "Sept 29, 2022",
+        "topic": "Intro to Networking"
+    },
+    {
+        "date": "Oct 06, 2022",
+        "topic": "Lightning Talks and Networking Part 2"
+    },
+    {
+        "date": "Oct 13, 2022",
+        "topic": "Fall Break No Meeting"
+    },
+    {
+        "date": "Oct 20, 2022",
+        "topic": "Andy Guest Speaking CDC"
+    },
+    {
+        "date": "Oct 27, 2022",
+        "topic": "Introduction to Cyber Competitions (Red vs Blue)"
+    },
+    {
+        "date": "Nov 03, 2022",
+        "topic": "NAVSEA Guest Speakers"
+    },
+    {
+        "date": "Nov 10, 2022",
+        "topic": "Network 3 (w/Challenge)"
+    },
+    {
+        "date": "Nov 17, 2022",
+        "topic": "CTF 2"
+    },
+    {
+        "date": "Nov 24, 2022",
+        "topic": "Thanksgiving Break No Meeting"
+    },
+    {
+        "date": "Dec 01, 2022",
+        "topic": "Lightning Talks"
+    },
+    {
+        "date": "Dec 08, 2022",
+        "topic": "Week Before Finals No Meeting"
     }
 ]
