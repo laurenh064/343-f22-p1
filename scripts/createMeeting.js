@@ -12,7 +12,6 @@ function createRow(meeting) {
     <tr>
     <td>${meeting.date}</td>
     <td>${meeting.topic}</td>
-    <td>${meeting.slides}</td>
     </tr>`;
     return row;
 }
