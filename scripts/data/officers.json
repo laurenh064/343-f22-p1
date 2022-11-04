@@ -1,0 +1,27 @@
+[
+    {
+        "role": "President",
+        "name": "Matt Wong",
+        "img": "images/img2.jpg"
+    },
+    {
+        "role": "Vice President",
+        "name": "John Doe",
+        "img": "images/img2.jpg"
+    },
+    {
+        "role": "Secretary",
+        "name": "Jane Doe",
+        "img": "images/img2.jpg"
+    },
+    {
+        "role": "Web Master",
+        "name": "John Smith",
+        "img": "images/img2.jpg"
+    },
+    {
+        "role": "Social",
+        "name": "Jane Smith",
+        "img": "images/img2.jpg"
+    }
+]

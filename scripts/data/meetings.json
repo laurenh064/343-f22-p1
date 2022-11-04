@@ -1,0 +1,27 @@
+[
+    {
+        "date": "1/1/2023",
+        "topic": "Competitions",
+        "slides": "link.com"
+    },
+    {
+        "date": "1/2/2023",
+        "topic": "Security",
+        "slides": "link.com"
+    },
+    {
+        "date": "1/3/2023",
+        "topic": "Forensics",
+        "slides": "link.com"
+    },
+    {
+        "date": "1/4/2023",
+        "topic": "Reverse Engineering",
+        "slides": "link.com"
+    },
+    {
+        "date": "1/5/2023",
+        "topic": "Crytography",
+        "slides": "link.com"
+    }
+]
