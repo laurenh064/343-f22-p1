@@ -1,41 +1,39 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/img4.jpg), no-repeat center center;
+    background: linear-gradient(hsla(190, 20%, 30%, 0.5), hsla(190, 20%, 30%, 0.5)), url(/images/img4.jpg), no-repeat center center;
+    backdrop-filter: blur(2px);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden
 }
 
 #main-section {
-    color: #fcfaf9ff;
+    color: rgb(255, 255, 255);
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90vh;
 }
 
-#background-img {
-    z-index: -1;
-    opacity: 0.5;
-    position: absolute;
-    /* Full height */
-    height: 100%;
-    background-size: auto;
+.main-container>* {
+    margin-top: 15px;
 }
 
 .main-container {
     text-align: center;
-    padding: 20px;
 }
 
-.main-container h1 {
-    font-size: 3rem;
+.title {
+    /* Font size resizes, but does not exceed 5rem or go below 2rem */
+    font-size: clamp(2rem, 5vw, 5rem);
     font-weight: 700;
 }
 
-.main-container h2 {
-    font-size: 2rem;
-    margin-top: 40px;
+.subtitle {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    /* font-size: 2rem; */
 }
 
 img.container-row.logo {
@@ -45,4 +43,19 @@ img.container-row.logo {
 
 #socials-nav {
     background-color: rgba(255, 255, 255, 0);
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+/* On page load animation */
+@keyframes slideInLeft {
+    0% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+.main-container {
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-name: slideInLeft;
 }
