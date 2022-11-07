@@ -14,8 +14,8 @@ form{
     position: relative;
 }
 #info{
-    border: 4px solid black ;
-    background-color: lightgray;
+    border: 4px solid darkgray ;
+    background-color: hsl(210, 14%, 89%);
     padding: 30px;
     width:fit-content;
     position: relative;
