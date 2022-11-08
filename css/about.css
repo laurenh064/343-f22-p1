@@ -2,16 +2,26 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-#cards {
+#main-container {
     margin-top: 50px;
+    margin-left: 50px;
+}
+
+#cards {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .card {
     width: 16rem;
+    margin: 0px 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 10rem;
+    }
 }
 
 #text-container {
