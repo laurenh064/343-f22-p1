@@ -8,7 +8,7 @@
     <title>Meetings</title>
 
     <!-- Libraries -->
-    <script src="https:////ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/2.1.0/json2html.min.js"></script>
 
     <!-- CSS only -->
@@ -19,31 +19,33 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 
-    <!-- ----------------------- local style and scripts ----------------------- -->
-    <link rel="icon" href="images\logo.png" type="image/png">
-    <link rel="stylesheet" href="css\common.css">
-    <link rel="stylesheet" href="css\table_page.css">
-    <script src="scripts\common.js"></script>
-    <script src="scripts\createMeeting.js"></script>
+    <!-- local style and scripts -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/table_page.css">
+    <script src="scripts/common.js"></script>
+    <script src="scripts/createMeeting.js"></script>
 </head>
 
 <body>
     <div id="nav-placeholder"></div>
 
-    <div id="main-container">
-        <div id="descripton">
-            <h1>Meetings</h1>
-            <p>Cyber Defense Club meets every Thursday at 5:30pm.</p>
+    <main>
+        <div id="content">
+            <div id="descripton">
+                <h1>Meetings</h1>
+                <p>Cyber Defense Club meets every Thursday at 5:30pm.</p>
+            </div>
+            <table id="table" class="table table-striped">
+                <tbody id="table-body">
+                    <tr>
+                        <th>Date</th>
+                        <th>Topic</th>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <table id="table" class="table table-striped">
-            <tbody id="table-body">
-                <tr>
-                    <th>Date</th>
-                    <th>Topic</th>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    </main>
 </body>
 
 </html>
