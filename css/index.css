@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(hsla(190, 20%, 30%, 0.5), hsla(190, 20%, 30%, 0.5)), url(/images/img4.jpg), no-repeat center center;
+    background: linear-gradient(hsla(190, 20%, 30%, 0.5), hsla(190, 20%, 30%, 0.5)), url(https://laurenh064.github.io/p1_website/images/img4.jpg), no-repeat center center;
     backdrop-filter: blur(2px);
     -webkit-background-size: cover;
     -moz-background-size: cover;
