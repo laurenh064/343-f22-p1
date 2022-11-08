@@ -6,22 +6,22 @@
     },
     {
         "role": "Vice President",
-        "name": "John Doe",
+        "name": "Thomas Rothman",
         "img": "images/img2.jpg"
     },
     {
         "role": "Secretary",
-        "name": "Jane Doe",
+        "name": "Andrew Bailey",
         "img": "images/img2.jpg"
     },
     {
         "role": "Web Master",
-        "name": "John Smith",
+        "name": "Tyler Rabatin",
         "img": "images/img2.jpg"
     },
     {
-        "role": "Social",
-        "name": "Jane Smith",
+        "role": "Social Media Manager",
+        "name": "Lauren Hartley",
         "img": "images/img2.jpg"
     }
 ]
