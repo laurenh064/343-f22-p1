@@ -10,7 +10,8 @@ const tableBody = $('#table-body');
 function createRow(officer) {
     const row = `
     <div class="card">
-        <img src="${officer.img}" class="card-img-top" alt="${officer.role}">
+        <!-- <img src="${officer.img}" class="card-img-top" alt="${officer.role}"> -->
+        <svg class="bd-placeholder-img" role="img" focusable="false"><title>${officer.role}</title><rect width="100%" height="100%" fill="#777"></rect></svg>
         <div class="card-body text-center">
             <h5 class="card-title fw-bold">${officer.role}</h5>
             <p class="card-text">${officer.name}</p>

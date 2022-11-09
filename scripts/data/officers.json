@@ -2,26 +2,26 @@
     {
         "role": "President",
         "name": "Matt Wong",
-        "img": "images/img2.jpg"
+        "img": "#"
     },
     {
         "role": "Vice President",
         "name": "Thomas Rothman",
-        "img": "images/img2.jpg"
+        "img": "#"
     },
     {
         "role": "Secretary",
         "name": "Andrew Bailey",
-        "img": "images/img2.jpg"
+        "img": "#"
     },
     {
         "role": "Web Master",
         "name": "Tyler Rabatin",
-        "img": "images/img2.jpg"
+        "img": "#"
     },
     {
         "role": "Social Media Manager",
         "name": "Lauren Hartley",
-        "img": "images/img2.jpg"
+        "img": "#"
     }
 ]
