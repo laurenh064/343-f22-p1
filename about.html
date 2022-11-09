@@ -26,17 +26,75 @@
 </head>
 
 <body>
-    <div id="nav-placeholder">
-    </div>
-    <div id="main-container">
+    <div id="nav-placeholder"></div>
 
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="images/img1.jpg" class="d-block w-100" alt="Hands-on activities">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Hands-on activities.</h1>
+                        <p>Participate in group activities to practice your skills.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/img5.jpg" class="d-block w-100" alt="Guest speakers">
+                <div class="carousel-caption text-start">
+                    <h1>Guest speakers.</h1>
+                    <p>Learn about cyber security in the professional world from guest speakers.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/img6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption text-start">
+                    <h1>Connect with others.</h1>
+                    <p>Meet fellow students that are interested in cyber security.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/img2.jpg" class="d-block w-100" alt="Josh and Sam excited about cyber security">
+                <div class="carousel-caption text-start">
+                    <h1>Learn new technologies.</h1>
+                    <p>Use technologies and skills that are used in cyber competitions.</p>
+                </div>
+            </div>
+        </div>
+        <div id="carousel-buttons">
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Cards and Description -->
+    <section id="main-container">
+        <!-- Dynamically create cards with json data -->
         <div id="cards">
         </div>
-
+        <!-- Description text -->
         <div id="text-container">
             <div class="description">
-                The Cyber Defense Club is a student-led group focused on learning about information security techniques
-                and tools and participates in cyber defense competitions such as CCDC, NCL, ISTS, CyberFusion, and NSA
+                The Cyber Defense Club is a student-led group focused on learning about information security
+                techniques
+                and tools and participates in cyber defense competitions such as CCDC, NCL, ISTS, CyberFusion, and
+                NSA
                 Codebreaker.
             </div>
             <div class="description">
@@ -44,8 +102,9 @@
                 through weekly demos and exercises as well as current information security news and trends.
             </div>
         </div>
-    </div>
+    </section>
 
+    </div>
 </body>
 
 </html>
