@@ -33,7 +33,6 @@ body {
 
 .subtitle {
     font-size: clamp(1.5rem, 3vw, 3rem);
-    /* font-size: 2rem; */
 }
 
 img.container-row.logo {
@@ -45,6 +44,23 @@ img.container-row.logo {
     background-color: rgba(255, 255, 255, 0);
     font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: lighter;
+}
+
+#socials-nav>* {
+    margin-right: 15px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#socials-nav>.social-link {
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+    transition: color .2s ease-in-out, transform .2s ease-in-out;
+}
+
+#socials-nav>.social-link:hover {
+    color: rgb(230, 175, 46);
+    transform: scale(1.1);
 }
 
 /* Animations */
