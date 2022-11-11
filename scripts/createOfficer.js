@@ -13,7 +13,7 @@ function createRow(officer) {
         <!-- <img src="${officer.img}" class="card-img-top" alt="${officer.role}"> -->
         <svg class="bd-placeholder-img" role="img" focusable="false"><title>${officer.role}</title><rect width="100%" height="100%" fill="#777"></rect></svg>
         <div class="card-body text-center">
-            <h5 class="card-title fw-bold">${officer.role}</h5>
+            <div class="card-title fw-bold">${officer.role}</div>
             <p class="card-text">${officer.name}</p>
         </div>
     </div>`;

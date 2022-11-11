@@ -20,6 +20,11 @@
     margin: 0px 3px;
 }
 
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
 #text-container {
     width: 100%;
     padding-right: 15px;

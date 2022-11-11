@@ -20,6 +20,10 @@ footer>* {
     font-size: 12px;
 }
 
+.card-title {
+    font-size: 1.2rem;
+}
+
 .btn {
     background-color: #541782ff;
     --bs-btn-border-color: #b68b24ff;
