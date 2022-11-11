@@ -6,11 +6,23 @@ main {
 
 }
 
-#content{
+#content {
     width: 65%;
 }
 
 .table {
-    
+    font-size: clamp(1rem, 1vw, 1.5rem);
     border: 2px solid darkgray;
+}
+
+footer>* {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 12px;
+}
+
+.btn {
+    background-color: #541782ff;
+    --bs-btn-border-color: #b68b24ff;
+    --bs-btn-hover-bg: #b68b24ff;
+    /* Green */
 }
